@@ -1,45 +1,78 @@
-
----
-
-### Comment utiliser ce code
-
-1. **Afficher avec un éditeur Markdown :**
-   - Utilise un éditeur prenant en charge Mermaid, comme **VS Code** (avec l'extension Mermaid) ou un éditeur en ligne comme [Mermaid Live Editor](https://mermaid-js.github.io/mermaid-live-editor/).
-
-2. **Afficher dans une page HTML :**
-   Ajoute la bibliothèque Mermaid directement à une page HTML pour le rendre interactif.
-
-#### Exemple HTML avec Mermaid intégré
-
-```html
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mermaid Diagram</title>
+    <title>Mermaid Diagram - Navigation de Page</title>
     <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom right, #6a11cb, #2575fc);
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            flex-direction: column;
+        }
+
+        .mermaid {
+            background-color: rgba(255, 255, 255, 0.9); /* Fond clair pour le diagramme */
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 1000px;
+            margin-top: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 36px;
+            margin-bottom: 30px;
+        }
+
+        header {
+            width: 100%;
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 24px;
+        }
+    </style>
 </head>
 <body>
+    <header>
+        Navigation de Page Web - Diagramme de Séquence
+    </header>
+
     <div class="mermaid">
         sequenceDiagram
             participant Utilisateur
+            participant Header
             participant Page
             participant Menu
             participant Contenu
             participant Footer
             participant Style
 
+            %% Étapes d'interaction dans l'ordre logique
+
             Utilisateur->>Page: Accède à la page
+            Page->>Header: Afficher l'en-tête de la page
+            Header-->>Page: En-tête affiché
             Page->>Menu: Charger les liens de navigation
-            Menu-->>Page: Liens chargés
+            Menu-->>Page: Liens de navigation chargés
             Page->>Contenu: Charger le contenu principal
             Contenu-->>Page: Contenu chargé
-            Page->>Footer: Charger le pied de page
-            Footer-->>Page: Pied de page chargé
+            Page->>Footer: Ajouter le pied de page
+            Footer-->>Page: Pied de page ajouté
             Page->>Style: Appliquer le style CSS
             Style-->>Page: Style appliqué
             Page-->>Utilisateur: Afficher la page complète
