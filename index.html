@@ -8,27 +8,57 @@
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom right, #6a11cb, #2575fc);
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        .mermaid {
+            background-color: rgba(255, 255, 255, 0.9); /* Fond clair pour le diagramme */
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 1000px;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 36px;
+            margin-bottom: 30px;
+        }
+    </style>
 </head>
 <body>
-    <div class="mermaid">
-        sequenceDiagram
-            participant Utilisateur
-            participant Page
-            participant Menu
-            participant Contenu
-            participant Footer
-            participant Style
+    <div>
+        <h1>Diagramme de Séquence - Navigation de Page</h1>
+        <div class="mermaid">
+            sequenceDiagram
+                participant Utilisateur
+                participant Page
+                participant Menu
+                participant Contenu
+                participant Footer
+                participant Style
 
-            Utilisateur->>Page: Accède à la page
-            Page->>Menu: Charger les liens de navigation
-            Menu-->>Page: Liens chargés
-            Page->>Contenu: Charger le contenu principal
-            Contenu-->>Page: Contenu chargé
-            Page->>Footer: Charger le pied de page
-            Footer-->>Page: Pied de page chargé
-            Page->>Style: Appliquer le style CSS
-            Style-->>Page: Style appliqué
-            Page-->>Utilisateur: Afficher la page complète
+                Utilisateur->>Page: Accède à la page
+                Page->>Menu: Charger les liens de navigation
+                Menu-->>Page: Liens chargés
+                Page->>Contenu: Charger le contenu principal
+                Contenu-->>Page: Contenu chargé
+                Page->>Footer: Charger le pied de page
+                Footer-->>Page: Pied de page chargé
+                Page->>Style: Appliquer le style CSS
+                Style-->>Page: Style appliqué
+                Page-->>Utilisateur: Afficher la page complète
+        </div>
     </div>
 </body>
 </html>
