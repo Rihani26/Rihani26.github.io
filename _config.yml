@@ -6,10 +6,9 @@ description: "Portfolio de Malek Rihani, Développeur SIG, passionné par les sy
 keywords: "Développeur SIG, QGIS, Python, PL/pgSQL, développement web, SIG"
 
 # Thème utilisé
-theme: "jekyll-theme-merlot"
-plugins:"- jekyll-mermaid"
+theme: "minimal-mistakes"
 
-# URL du site (pour GitHub Pages, ajuster selon votre propre domaine si nécessaire)
+# URL du site (ajuste selon ton propre domaine ou laisse le par défaut pour GitHub Pages)
 url: "https://ton-url-de-site.com"
 baseurl: "/"  # Si tu utilises un sous-répertoire pour GitHub Pages, définis ce champ
 
@@ -39,7 +38,7 @@ sections:
   - title: "À propos de moi"
     content: |
       Sérieux, curieux et motivé, je suis passionné par les systèmes d'information géographique (SIG), le développement informatique et l'automatisation des processus de données.
-  
+
   - title: "Compétences"
     content: |
       ### Langages
@@ -94,7 +93,7 @@ sections:
                 Portfolio "1" --> "1..1" CV : contient
         </div>
       </div>
-      
+
       <div class="section">
         <h2>Méthode Agile</h2>
         <img src="/assets/images/Méthode_agile.png" alt="Méthode Agile" />
