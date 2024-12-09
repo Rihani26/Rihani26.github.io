@@ -2,6 +2,8 @@
 title: "Malek RIHANI - Développeur SIG"
 author: "Malek RIHANI"
 date: "2024-12-09"
+theme: jekyll-theme-cayman
+markdown: kramdown
 output:
   html_document:
     toc: true
