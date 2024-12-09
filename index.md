@@ -2,11 +2,6 @@
 title: "Malek RIHANI - Développeur SIG"
 author: "Malek RIHANI"
 date: "`r Sys.Date()`"
-output:
-  html_document:
-    theme: united
-    toc: true
-    toc_float: true
 ---
 
 ## À propos de moi
@@ -73,5 +68,3 @@ Sérieux, curieux et motivé, je suis passionné par les systèmes d'information
 - Sport
 - Voyage
 - Informatique
-
----
