@@ -1,12 +1,20 @@
 ---
 title: "Malek RIHANI - Développeur SIG"
 author: "Malek RIHANI"
+date: "2024-12-09"
+output:
+  html_document:
+    toc: true
+    toc_float:
+      collapsed: false
+      smooth_scroll: true
 ---
 
 ## À propos de moi
 
 - **Email :** [malekrihani6@gmail.com](mailto:malekrihani6@gmail.com)  
 - **Téléphone :** +33 07 45 75 41 14  
+- **Date de naissance :** 22/01/2002  
 - **Permis :** B  
 
 Sérieux, curieux et motivé, je suis passionné par les systèmes d'information géographique (SIG), le développement informatique et l'automatisation des processus de données.
