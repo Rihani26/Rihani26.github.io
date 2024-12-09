@@ -7,8 +7,7 @@ keywords: "Développeur SIG, QGIS, Python, PL/pgSQL, développement web, SIG"
 
 # Thème utilisé
 theme: "jekyll-theme-merlot"
-plugins:
-- jekyll-mermaid
+plugins:"- jekyll-mermaid"
 
 # URL du site (pour GitHub Pages, ajuster selon votre propre domaine si nécessaire)
 url: "https://ton-url-de-site.com"
