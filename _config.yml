@@ -1,0 +1,58 @@
+title: "Malek RIHANI - Développeur SIG"
+author: "Malek RIHANI"
+date: "2024-12-09"
+theme: jekyll-theme-cayman
+markdown: kramdown
+
+# Options for HTML output
+output:
+  html_document:
+    toc: true
+    toc_float:
+      collapsed: false
+      smooth_scroll: true
+
+# Base URL of the site (if deploying to GitHub Pages)
+baseurl: "/"
+
+# URL of the site (useful for links)
+url: "https://ton-url-de-site.com"
+
+# Social links
+social_links:
+  - title: "LinkedIn"
+    url: "https://www.linkedin.com/in/malek-rihani/"
+  - title: "GitHub"
+    url: "https://github.com/malekrihani"
+
+# Configuration for navigation menu
+navbar:
+  items:
+    - title: "À propos de moi"
+      link: "/#à-propos-de-moi"
+    - title: "Compétences"
+      link: "/#compétences"
+    - title: "Diplômes et Formations"
+      link: "/#diplômes-et-formations"
+    - title: "Expériences professionnelles"
+      link: "/#expériences-professionnelles"
+    - title: "Projets académiques"
+      link: "/#projets-académiques"
+    - title: "Langues"
+      link: "/#langues"
+    - title: "Centres d'intérêt"
+      link: "/#centres-d-intérêt"
+
+# Enable syntax highlighting for code blocks
+highlighter: rouge
+
+# Site description and keywords for SEO
+description: "Portfolio de Malek Rihani, Développeur SIG, passionné par les systèmes d'information géographique et le développement logiciel."
+keywords: "Développeur SIG, QGIS, Python, PL/pgSQL, développement web"
+
+# Set permalinks for posts
+permalink: /:categories/:year/:month/:day/:title/
+
+# Customize footer (optional)
+footer:
+  text: "© 2024 Malek Rihani. Tous droits réservés."
