@@ -1,7 +1,6 @@
 ---
 title: "Malek RIHANI - Développeur SIG"
 author: "Malek RIHANI"
-date: "`r Sys.Date()`"
 ---
 
 ## À propos de moi
