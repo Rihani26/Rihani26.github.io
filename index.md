@@ -75,4 +75,4 @@ Sérieux, curieux et motivé, je suis passionné par les systèmes d'information
 - Lecture
 - Sport
 - Voyage
-- Informatique
+- Informatique et technologie
