@@ -6,7 +6,7 @@ description: "Portfolio de Malek Rihani, Développeur SIG, passionné par les sy
 keywords: "Développeur SIG, QGIS, Python, PL/pgSQL, développement web, SIG"
 
 # Thème utilisé
-theme: "jekyll-theme-lanyon"
+theme: "jekyll-theme-slate"
 
 # URL du site (ajuste selon ton propre domaine ou laisse le par défaut pour GitHub Pages)
 url: "https://ton-url-de-site.com"
