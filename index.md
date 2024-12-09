@@ -75,4 +75,39 @@ Sérieux, curieux et motivé, je suis passionné par les systèmes d'information
 - Lecture
 - Sport
 - Voyage
-- Informatique et technologie
+- Informatique
+
+## Travaux
+
+### Diagramme de Classe : Architecture du Projet
+<div class="section">
+    <div class="mermaid">
+        classDiagram
+            class Portfolio {
+                +String nom
+                +String description
+                +afficherPortfolio()
+                +afficherProjets()
+                +afficherCV()
+            }
+            class Projet {
+                +String titre
+                +String description
+                +String date
+                +afficherDetails()
+            }
+            class CV {
+                +String nom
+                +String parcours
+                +afficherCV()
+            }
+
+            Portfolio "1" --> "1..*" Projet : contient
+            Portfolio "1" --> "1..1" CV : contient
+    </div>
+</div>
+
+### Méthode Agile
+<div class="section">
+    <img src="/assets/images/Méthode_agile.png" alt="Méthode Agile" />
+</div>
