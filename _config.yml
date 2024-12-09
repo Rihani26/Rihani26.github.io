@@ -1,10 +1,131 @@
+# Configuration générale
 title: "Malek RIHANI - Développeur SIG"
 author: "Malek RIHANI"
 date: "2024-12-09"
-theme: jekyll-theme-cayman
-markdown: kramdown
+description: "Portfolio de Malek Rihani, Développeur SIG, passionné par les systèmes d'information géographique et le développement logiciel."
+keywords: "Développeur SIG, QGIS, Python, PL/pgSQL, développement web, SIG"
 
-# Options for HTML output
+# Thème utilisé
+theme: "minimal-mistakes"
+
+# URL du site (pour GitHub Pages, ajuster selon votre propre domaine si nécessaire)
+url: "https://ton-url-de-site.com"
+baseurl: "/"  # Si tu utilises un sous-répertoire pour GitHub Pages, définis ce champ
+
+# Configuration du contenu
+markdown: kramdown
+highlighter: rouge
+
+# Navigation dans la barre du menu
+navbar:
+  title: "Portfolio de Malek Rihani"
+  items:
+    - title: "À propos"
+      link: "/#à-propos"
+    - title: "Compétences"
+      link: "/#compétences"
+    - title: "Projets SIG"
+      link: "/#projets-sig"
+    - title: "Travaux"
+      link: "/#travaux"
+    - title: "Expériences professionnelles"
+      link: "/#expériences-professionnelles"
+    - title: "Contact"
+      link: "/#contact"
+
+# Sections supplémentaires pour les pages
+sections:
+  - title: "À propos de moi"
+    content: |
+      Sérin, curieux et motivé, je suis passionné par les systèmes d'information géographique (SIG), le développement informatique et l'automatisation des processus de données.
+  
+  - title: "Compétences"
+    content: |
+      ### Langages
+      - Python, SQL, VBA
+      - JavaScript, HTML, CSS
+      - R, SAS
+      
+      ### Logiciels
+      - SIG : QGIS, ArcGIS, Lizmap
+      - ETL : FME, Talend
+      - Tableurs : Excel
+      - Visualisation des données : Power BI, Tableau
+
+  - title: "Projets SIG"
+    content: |
+      ### Système de Gestion et Visualisation des Accidents de Vélo en France
+      - Validation des données : création d'un parser en Python.
+      - Visualisation interactive avec Tkinter et cartes Folium.
+      - Gestion des données : ajout, suppression et visualisation.
+
+      ### Développement d'une application SIG pour la gestion des incendies
+      - Création d'une application cartographique avec QGIS et PL/pgSQL.
+      - Automatisation des processus avec Python.
+      - Optimisation de la gestion des données spatiales pour le SDIS.
+
+  - title: "Travaux"
+    content: |
+      <div class="section">
+        <h2>Diagramme de Classe : Architecture du Projet</h2>
+        <div class="mermaid">
+            classDiagram
+                class Portfolio {
+                    +String nom
+                    +String description
+                    +afficherPortfolio()
+                    +afficherProjets()
+                    +afficherCV()
+                }
+                class Projet {
+                    +String titre
+                    +String description
+                    +String date
+                    +afficherDetails()
+                }
+                class CV {
+                    +String nom
+                    +String parcours
+                    +afficherCV()
+                }
+
+                Portfolio "1" --> "1..*" Projet : contient
+                Portfolio "1" --> "1..1" CV : contient
+        </div>
+      </div>
+      
+      <div class="section">
+        <h2>Méthode Agile</h2>
+        <img src="/assets/images/Méthode_agile.png" alt="Méthode Agile" />
+      </div>
+
+  - title: "Expériences professionnelles"
+    content: |
+      ### Développeur SIG (Apprenti)
+      *Service Départemental d'Incendie et de Secours (SDIS), Carcassonne | 08/2023 - présent*
+      - Gestion et automatisation de données avec PL/pgSQL.
+      - Développement d'applications cartographiques interactives.
+      - Automatisation des processus avec Python.
+
+      ### Bénévole en service civique
+      *SOS Casamence, Paris | 06/2022 - 08/2022*
+      - Ateliers de soutien scolaire et sensibilisation contre l'échec scolaire.
+
+  - title: "Contact"
+    content: |
+      **Email** : [malekrihani6@gmail.com](mailto:malekrihani6@gmail.com)  
+      **Téléphone** : +33 07 45 75 41 14  
+      **Date de naissance** : 22/01/2002  
+      **Permis** : B
+
+# Liens sociaux
+social_links:
+  - title: "LinkedIn"
+    url: "https://www.linkedin.com/in/malek-rihani/"
+  - title: "GitHub"
+    url: "https://github.com/malekrihani"
+  
+# Options pour l'affichage des tables des matières
 output:
   html_document:
     toc: true
@@ -12,47 +133,14 @@ output:
       collapsed: false
       smooth_scroll: true
 
-# Base URL of the site (if deploying to GitHub Pages)
-baseurl: "/"
-
-# URL of the site (useful for links)
-url: "https://ton-url-de-site.com"
-
-# Social links
-social_links:
-  - title: "LinkedIn"
-    url: "https://www.linkedin.com/in/malek-rihani/"
-  - title: "GitHub"
-    url: "https://github.com/malekrihani"
-
-# Configuration for navigation menu
-navbar:
-  items:
-    - title: "À propos de moi"
-      link: "/#à-propos-de-moi"
-    - title: "Compétences"
-      link: "/#compétences"
-    - title: "Diplômes et Formations"
-      link: "/#diplômes-et-formations"
-    - title: "Expériences professionnelles"
-      link: "/#expériences-professionnelles"
-    - title: "Projets académiques"
-      link: "/#projets-académiques"
-    - title: "Langues"
-      link: "/#langues"
-    - title: "Centres d'intérêt"
-      link: "/#centres-d-intérêt"
-
-# Enable syntax highlighting for code blocks
-highlighter: rouge
-
-# Site description and keywords for SEO
-description: "Portfolio de Malek Rihani, Développeur SIG, passionné par les systèmes d'information géographique et le développement logiciel."
-keywords: "Développeur SIG, QGIS, Python, PL/pgSQL, développement web"
-
-# Set permalinks for posts
-permalink: /:categories/:year/:month/:day/:title/
-
-# Customize footer (optional)
+# Paramètres de footer
 footer:
   text: "© 2024 Malek Rihani. Tous droits réservés."
+
+# Permalink configuration
+permalink: /:categories/:year/:month/:day/:title/
+
+# Configuration des commentaires (si tu veux utiliser Disqus ou autre)
+comments:
+  provider: "disqus"
+  shortname: "ton-disqus-shortname"
