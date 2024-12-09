@@ -140,6 +140,10 @@ comments:
   provider: "disqus"
   shortname: "ton-disqus-shortname"
 
-# Activation du Mermaid
-mermaid:
-  enable: true
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter_opts:
+    disable: true
+  mermaid:
+    enable: true
