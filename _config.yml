@@ -6,7 +6,7 @@ description: "Portfolio de Malek Rihani, Développeur SIG, passionné par les sy
 keywords: "Développeur SIG, QGIS, Python, PL/pgSQL, développement web, SIG"
 
 # Thème utilisé
-theme: "minimal-mistakes"
+theme: "jekyll-theme-merlot"
 
 # URL du site (pour GitHub Pages, ajuster selon votre propre domaine si nécessaire)
 url: "https://ton-url-de-site.com"
