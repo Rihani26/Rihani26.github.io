@@ -1,7 +1,6 @@
 ---
 title: "Malek RIHANI - Développeur SIG"
 author: "Malek RIHANI"
-
 ---
 
 ## À propos de moi
@@ -34,7 +33,7 @@ Sérieux, curieux et motivé, je suis passionné par les systèmes d'information
 ## Expériences professionnelles
 
 ### Développeur SIG (Apprenti)  
-*Service Départemental d'Incendie et de Secours (SDIS), Carcassonne | présent*
+*Service Départemental d'Incendie et de Secours (SDIS), Carcassonne | 08/2023 - présent*
 
 - Gestion et automatisation de données avec PL/pgSQL (triggers et procédures).
 - Développement d'applications cartographiques interactives avec QGIS.
@@ -43,7 +42,7 @@ Sérieux, curieux et motivé, je suis passionné par les systèmes d'information
 - Sauvegarde et restauration de données.
 
 ### Bénévole en service civique  
-*SOS Casamence, Paris | 
+*SOS Casamence, Paris | 06/2022 - 08/2022*
 
 - Ateliers de soutien scolaire et sensibilisation contre l'échec scolaire.
 - Collaboration avec des associations et institutions.
@@ -51,7 +50,7 @@ Sérieux, curieux et motivé, je suis passionné par les systèmes d'information
 ## Projets académiques
 
 ### Système de Gestion et Visualisation des Accidents de Vélo en France  
-
+*03/2024 - 04/2024*
 
 - Validation des données : création d'un parser en Python.
 - Visualisation interactive : interface utilisateur Tkinter + cartes avec Folium.
