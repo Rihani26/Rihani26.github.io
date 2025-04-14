@@ -1,7 +1,7 @@
 ---
-title: "Malek RIHANI - Développeur SIG"
+title: "Malek RIHANI - Développeur SIG & Data"
 author: "Malek RIHANI"
-date: "2024-12-09"
+date: "2025-09-01"
 theme: jekyll-theme-merlot
 markdown: kramdown
 output:
@@ -19,67 +19,80 @@ output:
 - **Date de naissance :** 22/01/2002  
 - **Permis :** B  
 
-Sérieux, curieux et motivé, je suis passionné par les systèmes d'information géographique (SIG), le développement informatique et l'automatisation des processus de données.
+Diplômé d’un BUT Sciences des Données, je me spécialise dans le développement SIG, l’automatisation des traitements de données et la visualisation cartographique interactive.  
+J’aime créer des outils simples et efficaces avec Python, PostGIS, Folium ou Leaflet, pour rendre les données vraiment utiles.
+
+---
 
 ## Compétences
 
-### Langages
-- Python, SQL, VBA
-- JavaScript, HTML, CSS
-- R, SAS
+**Langages :** Python, SQL (PostgreSQL/PostGIS), JavaScript, HTML/CSS, VBA, R  
+**Cartographie :** QGIS, Leaflet, Folium, ArcGIS  
+**Automatisation :** PL/pgSQL (triggers, fonctions), FME, ETL, cron  
+**Visualisation :** Power BI, Tableau, Dash, Tkinter  
+**Données :** Traitement CSV/Excel, scraping, API, spatial joins
 
-### Logiciels
-- SIG : QGIS, ArcGIS, Lizmap
-- ETL : FME, Talend
-- Tableurs : Excel
-- Visualisation des données : Power BI, Tableau
+---
 
-## Diplômes et formations
+## Diplômes
 
-- **2022-2025 :** BUT Sciences de Données, IUT Perpignan, Carcassonne  
-- **2021-2022 :** 1ère année BUT Informatique (mention Bien), Estiam Paris  
-- **2019-2020 :** Baccalauréat général (Sciences Informatiques), Lycée Mourouj 6, Tunis  
+- **BUT Sciences des Données** (2022–2025) – IUT Carcassonne  
+- **BUT Informatique (1ère année)** – Estiam Paris  
+- **Baccalauréat général – Spécialité Informatique**, Tunis
 
-## Expériences professionnelles
+---
 
-### Développeur SIG (Apprenti)  
-*Service Départemental d'Incendie et de Secours (SDIS), Carcassonne | 08/2023 - présent*
+## Expériences
 
-- Gestion et automatisation de données avec PL/pgSQL (triggers et procédures).
-- Développement d'applications cartographiques interactives avec QGIS.
-- Automatisation des processus avec Python.
-- Conception et optimisation de bases de données relationnelles.
-- Sauvegarde et restauration de données.
+### Développeur SIG – Alternance  
+**SDIS de l'Aude** | 2023 – 2025
 
-### Bénévole en service civique  
-*SOS Casamence, Paris | 06/2022 - 08/2022*
+- Travail sur bases de données spatiales (PostGIS), scripts Python et fonctions PL/pgSQL.  
+- Participation à des projets de couverture, digitalisation et automatisation de données terrain.  
+- Développement de cartes interactives et outils web SIG (Leaflet, Lizmap, QGIS).
 
-- Ateliers de soutien scolaire et sensibilisation contre l'échec scolaire.
-- Collaboration avec des associations et institutions.
+---
 
-## Projets académiques
+## Projets
 
-### Système de Gestion et Visualisation des Accidents de Vélo en France  
-*03/2024 - 04/2024*
+Quelques exemples de projets que j’ai réalisés ou auxquels j’ai contribué :
 
-- Validation des données : création d'un parser en Python.
-- Visualisation interactive : interface utilisateur Tkinter + cartes avec Folium.
-- Gestion des données : ajout, suppression et visualisation en base ou fichiers CSV.
+- 📍 Visualisation de données spatiales avec **Folium** et **PostGIS**  
+- 🧠 Automatisation de traitements géo avec **triggers PL/pgSQL**  
+- 🗺️ Cartes web avec **Leaflet** et données GeoJSON  
+- 📊 Tableaux de bord avec **Dash** ou **Tkinter**  
+- 🧹 Nettoyage et structuration de données CSV + spatialisation
+
+---
+
+## Galerie
+
+> *Cliquez sur une image pour l’agrandir*
+
+![Carte n°1](images/carte1.png)  
+![Carte n°2](images/carte2.png)  
+![Carte n°3](images/carte3.png)
+
+---
 
 ## Langues
 
-- **Anglais :** Niveau B2
+- **Français :** Natif  
+- **Anglais :** B2
+
+---
 
 ## Centres d'intérêt
 
-- Lecture
-- Sport
-- Voyage
-- Informatique
+- SIG & Open Data  
+- Sport & randonnées  
+- Développement web léger  
+- Voyage, photo, cartographie papier
 
-## Travaux
+---
 
-### Diagramme de Classe : Architecture du Projet
+## Diagramme UML (Portfolio)
+
 ```mermaid
 classDiagram
     class Portfolio {
