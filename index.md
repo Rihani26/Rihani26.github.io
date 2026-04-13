@@ -1,7 +1,7 @@
 ---
 title: "Malek RIHANI - Développeur SIG & Data"
 author: "Malek RIHANI"
-date: "2025-09-01"
+date: "2026-04-13"
 theme: jekyll-theme-merlot
 markdown: kramdown
 output:
@@ -12,107 +12,100 @@ output:
       smooth_scroll: true
 ---
 
-## À propos de moi
+## 👤 À propos de moi
 
 - **Email :** [malekrihani6@gmail.com](mailto:malekrihani6@gmail.com)  
 - **Téléphone :** +33 07 45 75 41 14  
 - **Date de naissance :** 22/01/2002  
 - **Permis :** B  
 
-Diplômé d’un BUT Sciences des Données, je me spécialise dans le développement SIG, l’automatisation des traitements de données et la visualisation cartographique interactive.  
-J’aime créer des outils simples et efficaces avec Python, PostGIS, Folium ou Leaflet, pour rendre les données vraiment utiles.
+Étudiant en M1 Géomatique à GeoData Paris, spécialisé en développement SIG, data géospatiale et applications cartographiques interactives.
 
 ---
 
-## Compétences
+## 🛠️ Compétences
 
-**Langages :** Python, SQL (PostgreSQL/PostGIS), JavaScript, HTML/CSS, VBA, R  
-**Cartographie :** QGIS, Leaflet, Folium, ArcGIS  
-**Automatisation :** PL/pgSQL (triggers, fonctions), FME, ETL, cron  
-**Visualisation :** Power BI, Tableau, Dash, Tkinter  
-**Données :** Traitement CSV/Excel, scraping, API, spatial joins
-
----
-
-## Diplômes
-
-- **BUT Sciences des Données** (2022–2025) – IUT Carcassonne  
-- **BUT Informatique (1ère année)** – Estiam Paris  
-- **Baccalauréat général – Spécialité Informatique**, Tunis
+**Langages :** Python, SQL (PostgreSQL/PostGIS), JavaScript, HTML/CSS, R, VBA  
+**SIG :** QGIS, ArcGIS, Leaflet, Folium, GeoJSON  
+**Base de données :** PostgreSQL/PostGIS, requêtes spatiales, triggers  
+**Développement :** Web SIG, Tkinter, Dash  
+**Data :** scraping, ETL, traitement CSV/Excel  
 
 ---
 
-## Expériences
+## 🎓 Diplômes
 
-### Développeur SIG – Alternance  
-**SDIS de l'Aude** | 2023 – 2025
-
-- Travail sur bases de données spatiales (PostGIS), scripts Python et fonctions PL/pgSQL.  
-- Participation à des projets de couverture, digitalisation et automatisation de données terrain.  
-- Développement de cartes interactives et outils web SIG (Leaflet, Lizmap, QGIS).
+- M1 Géomatique – GeoData Paris (en cours)  
+- BUT Sciences des Données – IUT Carcassonne  
+- Baccalauréat spécialité informatique – Tunis  
 
 ---
 
-## Projets
+## 💼 Expérience
 
-Quelques exemples de projets que j’ai réalisés ou auxquels j’ai contribué :
+### Développeur SIG – SDIS de l’Aude (2023–2025)
 
-- 📍 Visualisation de données spatiales avec **Folium** et **PostGIS**  
-- 🧠 Automatisation de traitements géo avec **triggers PL/pgSQL**  
-- 🗺️ Cartes web avec **Leaflet** et données GeoJSON  
-- 📊 Tableaux de bord avec **Dash** ou **Tkinter**  
-- 🧹 Nettoyage et structuration de données CSV + spatialisation
-
----
-
-## Galerie
-
-> *Cliquez sur une image pour l’agrandir*
-
-![Carte n°1](images/carte1.png)  
-![Carte n°2](images/carte2.png)  
-![Carte n°3](images/carte3.png)
+- PostGIS & bases de données spatiales  
+- Automatisation Python / PLpgSQL  
+- Cartes interactives (QGIS, Leaflet, Lizmap)  
+- Outils SIG pour opérationnel terrain  
 
 ---
 
-## Langues
+## 🚀 Projets
 
-- **Français :** Natif  
-- **Anglais :** B2
-
----
-
-## Centres d'intérêt
-
-- SIG & Open Data  
-- Sport & randonnées  
-- Développement web léger  
-- Voyage, photo, cartographie papier
+### 🌾 Crop Circle – Web SIG complet
+- Application web SIG interactive complète  
+- Analyse et visualisation de données géospatiales  
+- Stack web + SIG + backend Python  
 
 ---
 
-## Diagramme UML (Portfolio)
+### 🚒 Carte pompiers (SDIS)
+- Outil opérationnel pour interventions  
+- Visualisation de données terrain  
 
-```mermaid
-classDiagram
-    class Portfolio {
-        +String nom
-        +String description
-        +afficherPortfolio()
-        +afficherProjets()
-        +afficherCV()
-    }
-    class Projet {
-        +String titre
-        +String description
-        +String date
-        +afficherDetails()
-    }
-    class CV {
-        +String nom
-        +String parcours
-        +afficherCV()
-    }
+---
 
-    Portfolio "1" --> "1..*" Projet : contient
-    Portfolio "1" --> "1..1" CV : contient
+### 🚲 Accidents vélo France (Tkinter)
+- Interface Python interactive  
+- Analyse de données spatiales  
+
+---
+
+### 🚌 AURBA mobilité Bordeaux
+- Analyse des flux Bordeaux ↔ communes  
+- Carte interactive urbanisme  
+
+---
+
+### 🗄️ Serveur SIG & PostGIS
+- Mise en place infrastructure SIG  
+- Requêtes spatiales avancées  
+
+---
+
+### 🌐 Webscraping géodata
+- Collecte automatisée de données  
+- Enrichissement de bases SIG  
+
+---
+
+## 🖼️ Galerie
+
+![Carte 1](images/carte1.png)  
+![Carte 2](images/carte2.png)  
+![Carte 3](images/carte3.png)  
+
+---
+
+## 🌍 Langues
+
+- Français : natif  
+- Anglais : B2  
+
+---
+
+## 🎯 Centres d’intérêt
+
+SIG, urbanisme, développement web, sport, cartographie
